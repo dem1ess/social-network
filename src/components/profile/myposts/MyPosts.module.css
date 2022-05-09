@@ -1,0 +1,24 @@
+.item {
+    color: darkkhaki;
+}
+
+.item img {
+    width: 40px;
+}
+
+.posts {
+    padding: 5px;
+}
+
+button {
+    padding: 4px;
+    margin-left: 20px;
+}
+
+.text {
+    padding: .3rem;
+}
+
+.h3 {
+    margin-left: .5 zrem;
+}
