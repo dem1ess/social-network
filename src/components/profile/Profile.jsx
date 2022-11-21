@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import {ProfileInfo} from "./profileinfo/ProfileInfo";
 import {MyPostsContainer} from "./myposts/MyPostsContainer";
 

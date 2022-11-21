@@ -20,7 +20,6 @@ export const Dialogs = (props) => {
     };
 
     return (
-        <div>
             <div className={s.dialogs}>
                 <div className={s.dialogsItems}> {dialogsElements} </div>
                 <div className={s.messages}> {messageElements} </div>
@@ -39,6 +38,5 @@ export const Dialogs = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 };

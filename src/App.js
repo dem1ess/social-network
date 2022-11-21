@@ -1,5 +1,5 @@
 import "./App.css";
-import {Header} from "./components/header/Header";
+import Header from "./components/header/Header";
 import {Nav} from "./components/navbar/Nav";
 import {Profile} from "./components/profile/Profile";
 import {BrowserRouter, Route} from "react-router-dom";
@@ -11,16 +11,14 @@ const App = (props) => {
             <div className="app-wrapper">
                 <Header/>
                 <Nav/>
-                <div class="app-wrapper-content">
+                <div className="app-wrapper-content">
                     <Route
                         path="/dialogs"
                         render={() => <DialogsContainer/>}
                     />
                     <Route
                         path="/profile"
-                        render={() => (
-                            <Profile/>
-                        )}
+                        render={() => <Profile/>}
                     />
                 </div>
             </div>
