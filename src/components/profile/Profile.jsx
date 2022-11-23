@@ -1,7 +1,7 @@
 import {ProfileInfo} from "./profileinfo/ProfileInfo";
 import {MyPostsContainer} from "./myposts/MyPostsContainer";
 
-export const Profile = (props) => {
+export const Profile = () => {
     return (
         <div>
             <ProfileInfo/>

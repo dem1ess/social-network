@@ -3,9 +3,9 @@ import Header from "./components/header/Header";
 import {Nav} from "./components/navbar/Nav";
 import {Profile} from "./components/profile/Profile";
 import {BrowserRouter, Route} from "react-router-dom";
-import {DialogsContainer} from "./components/dialogs/DialogsContainer";
+import DialogsContainer from "./components/dialogs/DialogsContainer";
 
-const App = (props) => {
+const App = () => {
     return (
         <BrowserRouter>
             <div className="app-wrapper">
