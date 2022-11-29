@@ -11,7 +11,7 @@
     align-items: center;
     -webkit-box-align: center;
     border: none;
-    padding: 7px 3px 8px;
+    padding: 3px 3px 3px;
     text-decoration: none;
     margin-bottom: 10px;
     cursor: pointer;
@@ -24,24 +24,31 @@
 .item a {
     text-decoration: none;
     color: whitesmoke;
+    outline: none;
+
 }
 
 .item:hover {
+    outline: none;
+
     background-color: #464545;
     transition: all 0.2s;
 }
 
 .item a.active {
+    outline: none;
+
     animation: pulsate 2.5s infinite alternate;;
 }
 .left_menu {
     display: flex;
+    width: 100%;
     align-items: center;
+
 }
 .Left_Icon {
     align-items: center;
-    justify-content: center;
     margin-right: 10px;
     color: #71aaeb;
-    flex: 1;
+    width: 17px;
 }
