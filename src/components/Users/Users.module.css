@@ -1,0 +1,52 @@
+.friends_find_list {
+    background-color: #222222;
+    border-radius: 12px;
+    min-height: 950px;
+    width: 550px;
+}
+.friends_find_user {
+    float: left;
+    margin: 0 0 0 15px;
+    width: 160px;
+    height: 223px;
+}
+.description_user {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 12px;
+}
+.page_header_block {
+    box-sizing: border-box;
+    display: flex;
+    background: #222222;
+    height: 62px;
+    border-radius: 12px 12px 0;
+    width: 550px;
+    padding: 15px 15px;
+}
+
+.ui_searchBtn {
+    background: #424242;
+    height: 32px;
+    border: 1px #424242 solid;
+    border-radius: 0 5px 5px 0;
+    width: 45px;
+    padding-top: 1px;
+    margin-left: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.ui_searchInput {
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 18px;
+    border: 1px #424242 solid;
+    background: #222222;
+    border-radius: 5px 0 0 5px;
+    height: 32px;
+    width: 471px;
+    padding: 5px 12px;
+    outline: none;
+    color: whitesmoke;
+}
